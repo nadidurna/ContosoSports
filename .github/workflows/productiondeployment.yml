@@ -9,22 +9,22 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 # Be sure to replace the tokens in the AZURE_*_NAME variables with the names of the resources in Azure
 env:  
- AZURE_WEBAPP_NAME: '<E-Commerce Web Application Name - named similar to contosoapp{random characters}>'
+ AZURE_WEBAPP_NAME: 'contosoappu7ce5sm4vmxvc'
  AZURE_WEBAPP_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Web'  
  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 
- AZURE_ADMINAPP_NAME: '<The name of the Call Center admin App Service in Azure>'
+ AZURE_ADMINAPP_NAME: 'contosoadmin4'
  AZURE_ADMINAPP_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Admin'
 
- AZURE_API_PAYMENT_NAME: '<The name of the Payments API App Service in Azure>'
+ AZURE_API_PAYMENT_NAME: 'contososportspaymentgateway4'
  AZURE_API_PAYMENT_PROJECT_NAME: 'Contoso.Apps.PaymentGateway'
  AZURE_API_PAYMENT_PUBLISH_PROFILE: ${{ secrets.AZURE_API_PAYMENT_PUBLISH_PROFILE }}
 
- AZURE_API_OFFERS_NAME: '<The name of the Offers API App Service in Azure>'
+ AZURE_API_OFFERS_NAME: 'contoso-offers-api-4'
  AZURE_API_OFFERS_PROJECT_NAME: 'Contoso.Apps.SportsLeague.Offers'
  AZURE_API_OFFERS_PUBLISH_PROFILE: ${{ secrets.AZURE_API_OFFERS_PUBLISH_PROFILE }}
 
- AZURE_FUNCTIONAPP_NAME: '<The name of the Function App in Azure>'
+ AZURE_FUNCTIONAPP_NAME: 'contoso-function-app-4'
  AZURE_FUNCTIONAPP_PROJECT_NAME: 'Contoso.Apps.FunctionApp'
  AZURE_FUNCTIONAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
 
